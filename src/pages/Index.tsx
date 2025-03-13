@@ -53,8 +53,6 @@ const Index = () => {
         <div className="container mx-auto px-4 py-12 relative z-10 flex flex-col items-center">
           <a 
             href="https://chatgpt.com/g/g-67d2038403c88191a80f3e31147babb1-fortune-teller-gpt"
-            target="_blank"
-            rel="noopener noreferrer"
             className="max-w-4xl w-full block rounded-2xl overflow-hidden shadow-lg hover:shadow-mystical-purple/30 transition-all duration-300"
           >
             <img 
