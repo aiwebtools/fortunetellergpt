@@ -21,7 +21,7 @@ const FeatureCard = ({
 
 const Features = () => {
   return (
-    <section id="features" className="py-20 relative overflow-hidden">
+    <section id="features" className="py-12 relative overflow-hidden">
       <div className="stars-bg opacity-50"></div>
       
       {/* Animated gradient orb */}
