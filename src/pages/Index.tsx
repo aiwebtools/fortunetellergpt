@@ -10,6 +10,8 @@ import CTASection from "@/components/CTASection";
 import DisclaimerSection from "@/components/DisclaimerSection";
 import Footer from "@/components/Footer";
 import DisclaimerPopup from "@/components/DisclaimerPopup";
+import { Button } from "@/components/ui/button";
+import { Sparkles } from "lucide-react";
 
 const Index = () => {
   // Scroll to top on initial load
@@ -47,8 +49,8 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
-        {/* Main promotional image - moved to right before Features */}
-        <div className="container mx-auto px-4 py-12 relative z-10 flex justify-center">
+        {/* Main promotional image and button */}
+        <div className="container mx-auto px-4 py-12 relative z-10 flex flex-col items-center">
           <a 
             href="https://chatgpt.com/g/g-67d2038403c88191a80f3e31147babb1-fortune-teller-gpt"
             target="_blank"
@@ -62,6 +64,20 @@ const Index = () => {
               loading="eager"
             />
           </a>
+          <div className="mt-6">
+            <a 
+              href="https://chatgpt.com/g/g-67d2038403c88191a80f3e31147babb1-fortune-teller-gpt"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button 
+                className="button-glow bg-gradient-to-r from-mystical-purple to-mystical-teal text-white font-medium text-lg px-8 py-6 h-auto rounded-full hover:shadow-lg hover:shadow-mystical-purple/30 transition-all duration-300"
+              >
+                <Sparkles className="mr-2" />
+                TRY FORTUNE TELLER GPT
+              </Button>
+            </a>
+          </div>
         </div>
         <Features />
         <HowItWorks />
