@@ -31,6 +31,17 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a 
+                  href="https://chatgpt.com/g/g-67d2038403c88191a80f3e31147babb1-fortune-teller-gpt" 
+                  className="group flex items-center gap-1.5 text-gray-400 hover:text-mystical-teal transition-colors"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="group-hover:underline decoration-mystical-teal/30 underline-offset-4">Begin Your Reading</span>
+                  <Star className="w-3.5 h-3.5 text-mystical-teal opacity-0 group-hover:opacity-100 transition-opacity" />
+                </a>
+              </li>
+              <li>
+                <a 
                   href="https://chatgpt.com/g/g-67d9371a80988191909edd68d54a1c7f-dream-interpreter-gpt" 
                   className="group flex items-center gap-1.5 text-gray-400 hover:text-mystical-teal transition-colors"
                   target="_blank"
