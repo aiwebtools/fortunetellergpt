@@ -1,6 +1,8 @@
 
 import { useState, useEffect } from "react";
 import { Star, Menu, X } from "lucide-react";
+import { HoverCard, HoverCardContent, HoverCardTrigger } from "./ui/hover-card";
+import { Button } from "./ui/button";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -38,14 +40,26 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
-          <a 
-            href="https://chatgpt.com/g/g-67d9371a80988191909edd68d54a1c7f-dream-interpreter-gpt" 
-            className="text-white/80 hover:text-white transition-colors"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            You May Also Like: Dream Interpreter GPT
-          </a>
+          <HoverCard>
+            <HoverCardTrigger asChild>
+              <a 
+                href="https://chatgpt.com/g/g-67d9371a80988191909edd68d54a1c7f-dream-interpreter-gpt" 
+                className="flex items-center gap-1.5 text-white/90 hover:text-white transition-colors group"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="group-hover:underline decoration-mystical-teal/50 underline-offset-4">You May Also Like: Dream Interpreter GPT</span>
+                <Star className="w-4 h-4 text-mystical-teal opacity-0 group-hover:opacity-100 transition-opacity" />
+              </a>
+            </HoverCardTrigger>
+            <HoverCardContent className="w-80 p-4 bg-mystical-dark/95 border-mystical-purple/30 text-white backdrop-blur-md">
+              <div className="flex flex-col gap-2">
+                <h4 className="font-medium text-mystical-teal">Dream Interpreter GPT</h4>
+                <p className="text-sm text-white/80">Unravel the mysteries of your dreams with our AI-powered dream interpreter.</p>
+              </div>
+            </HoverCardContent>
+          </HoverCard>
+          
           <a 
             href="#faq" 
             className="text-white/80 hover:text-white transition-colors"
@@ -66,14 +80,19 @@ const Header = () => {
           >
             More AI Tools
           </a>
-          <a 
-            href="https://chatgpt.com/g/g-67d2038403c88191a80f3e31147babb1-fortune-teller-gpt" 
-            className="button-glow px-6 py-2 rounded-full bg-gradient-to-r from-mystical-purple to-mystical-teal text-white font-medium hover:shadow-lg transition-all duration-300"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Button 
+            asChild
+            variant="default" 
+            className="button-glow px-6 py-2 rounded-full bg-gradient-to-r from-mystical-purple to-mystical-teal text-white font-medium hover:shadow-lg transition-all duration-300 hover:scale-105"
           >
-            Begin Your Reading
-          </a>
+            <a 
+              href="https://chatgpt.com/g/g-67d2038403c88191a80f3e31147babb1-fortune-teller-gpt" 
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Begin Your Reading
+            </a>
+          </Button>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -91,45 +110,51 @@ const Header = () => {
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
             <a 
               href="https://chatgpt.com/g/g-67d9371a80988191909edd68d54a1c7f-dream-interpreter-gpt" 
-              className="text-white/80 hover:text-white transition-colors py-2 border-b border-white/10"
+              className="text-white/90 hover:text-white group flex items-center justify-between py-3 border-b border-white/10"
               onClick={() => setMobileMenuOpen(false)}
               target="_blank"
               rel="noopener noreferrer"
             >
-              You May Also Like: Dream Interpreter GPT
+              <span className="group-hover:text-mystical-teal transition-colors">You May Also Like: Dream Interpreter GPT</span>
+              <Star className="w-4 h-4 text-mystical-teal opacity-0 group-hover:opacity-100 transition-opacity" />
             </a>
             <a 
               href="#faq" 
-              className="text-white/80 hover:text-white transition-colors py-2 border-b border-white/10"
+              className="text-white/80 hover:text-white transition-colors py-3 border-b border-white/10"
               onClick={() => setMobileMenuOpen(false)}
             >
               FAQ
             </a>
             <a 
               href="#disclaimer" 
-              className="text-white/80 hover:text-white transition-colors py-2 border-b border-white/10"
+              className="text-white/80 hover:text-white transition-colors py-3 border-b border-white/10"
               onClick={() => setMobileMenuOpen(false)}
             >
               Disclaimer
             </a>
             <a 
               href="https://www.aiwebtools.ai" 
-              className="text-white/80 hover:text-white transition-colors py-2 border-b border-white/10"
+              className="text-white/80 hover:text-white transition-colors py-3 border-b border-white/10"
               onClick={() => setMobileMenuOpen(false)}
               target="_blank"
               rel="noopener noreferrer"
             >
               More AI Tools
             </a>
-            <a 
-              href="https://chatgpt.com/g/g-67d2038403c88191a80f3e31147babb1-fortune-teller-gpt" 
-              className="px-6 py-3 rounded-full bg-gradient-to-r from-mystical-purple to-mystical-teal text-white font-medium text-center"
+            <Button 
+              asChild
+              variant="default" 
+              className="w-full px-6 py-3 rounded-full bg-gradient-to-r from-mystical-purple to-mystical-teal text-white font-medium text-center hover:shadow-lg transition-all duration-300 hover:scale-105"
               onClick={() => setMobileMenuOpen(false)}
-              target="_blank"
-              rel="noopener noreferrer"
             >
-              Begin Your Reading
-            </a>
+              <a 
+                href="https://chatgpt.com/g/g-67d2038403c88191a80f3e31147babb1-fortune-teller-gpt" 
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Begin Your Reading
+              </a>
+            </Button>
           </div>
         </nav>
       )}

@@ -1,5 +1,6 @@
 
 import { Star } from "lucide-react";
+import { Button } from "./ui/button";
 
 const Footer = () => {
   return (
@@ -31,11 +32,12 @@ const Footer = () => {
               <li>
                 <a 
                   href="https://chatgpt.com/g/g-67d9371a80988191909edd68d54a1c7f-dream-interpreter-gpt" 
-                  className="text-gray-400 hover:text-mystical-teal transition-colors"
+                  className="group flex items-center gap-1.5 text-gray-400 hover:text-mystical-teal transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  You May Also Like: Dream Interpreter GPT
+                  <span className="group-hover:underline decoration-mystical-teal/30 underline-offset-4">You May Also Like: Dream Interpreter GPT</span>
+                  <Star className="w-3.5 h-3.5 text-mystical-teal opacity-0 group-hover:opacity-100 transition-opacity" />
                 </a>
               </li>
               <li>
@@ -115,14 +117,19 @@ const Footer = () => {
             </ul>
             
             <div className="mt-6">
-              <a
-                href="https://www.aiwebtools.ai"
-                className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-mystical-purple to-mystical-teal text-white text-sm font-medium hover:shadow-lg transition-all duration-300"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Button 
+                asChild
+                variant="default" 
+                className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-mystical-purple to-mystical-teal text-white text-sm font-medium hover:shadow-lg transition-all duration-300 hover:scale-105"
               >
-                More AI Tools
-              </a>
+                <a
+                  href="https://www.aiwebtools.ai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  More AI Tools
+                </a>
+              </Button>
             </div>
           </div>
         </div>
