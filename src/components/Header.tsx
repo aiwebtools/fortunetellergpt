@@ -72,7 +72,7 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Try Now
+            Begin Your Reading
           </a>
         </nav>
 
@@ -128,7 +128,7 @@ const Header = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Try Now
+              Begin Your Reading
             </a>
           </div>
         </nav>
