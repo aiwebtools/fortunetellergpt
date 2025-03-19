@@ -39,12 +39,12 @@ const Header = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
           <a 
-            href="https://chatgpt.com/g/g-67d2038403c88191a80f3e31147babb1-fortune-teller-gpt" 
+            href="https://chatgpt.com/g/g-67d9371a80988191909edd68d54a1c7f-dream-interpreter-gpt" 
             className="text-white/80 hover:text-white transition-colors"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Discover Your Destiny
+            You May Also Like: Dream Interpreter GPT
           </a>
           <a 
             href="#faq" 
@@ -90,13 +90,13 @@ const Header = () => {
         <nav className="md:hidden bg-mystical-dark/95 backdrop-blur-lg animate-fade-in">
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
             <a 
-              href="https://chatgpt.com/g/g-67d2038403c88191a80f3e31147babb1-fortune-teller-gpt" 
+              href="https://chatgpt.com/g/g-67d9371a80988191909edd68d54a1c7f-dream-interpreter-gpt" 
               className="text-white/80 hover:text-white transition-colors py-2 border-b border-white/10"
               onClick={() => setMobileMenuOpen(false)}
               target="_blank"
               rel="noopener noreferrer"
             >
-              Discover Your Destiny
+              You May Also Like: Dream Interpreter GPT
             </a>
             <a 
               href="#faq" 

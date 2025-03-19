@@ -30,12 +30,12 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a 
-                  href="https://chatgpt.com/g/g-67d2038403c88191a80f3e31147babb1-fortune-teller-gpt" 
+                  href="https://chatgpt.com/g/g-67d9371a80988191909edd68d54a1c7f-dream-interpreter-gpt" 
                   className="text-gray-400 hover:text-mystical-teal transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Discover Your Destiny
+                  You May Also Like: Dream Interpreter GPT
                 </a>
               </li>
               <li>
