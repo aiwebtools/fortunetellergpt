@@ -43,7 +43,7 @@ const Header = () => {
           <HoverCard>
             <HoverCardTrigger asChild>
               <a 
-                href="https://chatgpt.com/g/g-67d9371a80988191909edd68d54a1c7f-dream-interpreter-gpt" 
+                href="https://dreaminterpreter.lovable.app/?via=aiwebtools" 
                 className="flex items-center gap-1.5 text-white/90 hover:text-white transition-colors group"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -109,7 +109,7 @@ const Header = () => {
         <nav className="md:hidden bg-mystical-dark/95 backdrop-blur-lg animate-fade-in">
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
             <a 
-              href="https://chatgpt.com/g/g-67d9371a80988191909edd68d54a1c7f-dream-interpreter-gpt" 
+              href="https://dreaminterpreter.lovable.app/?via=aiwebtools" 
               className="text-white/90 hover:text-white group flex items-center justify-between py-3 border-b border-white/10"
               onClick={() => setMobileMenuOpen(false)}
               target="_blank"

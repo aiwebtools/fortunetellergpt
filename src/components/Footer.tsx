@@ -42,7 +42,7 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="https://chatgpt.com/g/g-67d9371a80988191909edd68d54a1c7f-dream-interpreter-gpt" 
+                  href="https://dreaminterpreter.lovable.app/?via=aiwebtools" 
                   className="group flex items-center gap-1.5 text-gray-400 hover:text-mystical-teal transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
