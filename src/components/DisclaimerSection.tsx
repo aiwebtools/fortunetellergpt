@@ -16,6 +16,10 @@ const DisclaimerSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
             Legal <span className="text-gradient">Disclaimer</span>
           </h2>
+          
+          <p className="text-lg text-mystical-teal font-medium mb-4">
+            For informational, educational and research purposes only.
+          </p>
         </div>
         
         <div className="max-w-4xl mx-auto glass-panel p-8 text-gray-300 text-sm space-y-6">

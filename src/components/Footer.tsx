@@ -24,6 +24,7 @@ const Footer = () => {
               </div>
             </a>
             <p className="text-gray-400 text-sm mt-4">Discover your destiny through our AI-powered mystical oracle. Get predictions backed by data science and cosmic wisdom.</p>
+            <p className="text-xs text-gray-500 mt-3 italic">For informational, educational and research purposes only.</p>
           </div>
           
           <div className="col-span-1">
@@ -95,7 +96,7 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="https://aiwebtools.ai/terms-of-services" 
+                  href="https://aiwebtools.lovable.app/disclaimers" 
                   className="text-gray-400 hover:text-mystical-teal transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
