@@ -14,21 +14,33 @@ const Footer = () => {
               className="flex items-center gap-2 mb-4 group"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Fortune Teller GPT by AIWEBTOOLS.AI"
             >
               <div className="w-10 h-10 rounded-full bg-gradient-to-br from-mystical-purple to-mystical-teal flex items-center justify-center">
                 <Star className="w-5 h-5 text-white" />
               </div>
               <div>
                 <h3 className="text-xl font-bold text-gradient">Fortune Teller GPT</h3>
-                <p className="text-xs text-gray-400">Presented by <a href="https://www.aiwebtools.ai" className="hover:text-mystical-teal transition-colors" target="_blank" rel="noopener noreferrer">AiWebTools.Ai</a></p>
+                <p className="text-xs text-gray-400">By <a href="https://www.aiwebtools.ai" className="hover:text-mystical-teal transition-colors" target="_blank" rel="noopener noreferrer"><strong>AIWEBTOOLS.AI</strong></a></p>
               </div>
             </a>
-            <p className="text-gray-400 text-sm mt-4">Discover your destiny through our AI-powered mystical oracle. Get predictions backed by data science and cosmic wisdom.</p>
+            <p className="text-gray-400 text-sm mt-4">
+              <strong className="text-mystical-teal">AIWEBTOOLS.AI</strong> brings you Fortune Teller GPT - the most advanced AI fortune telling tool. 
+              Discover your destiny through our AI-powered mystical oracle with predictions backed by data science and artificial intelligence.
+            </p>
             <p className="text-xs text-gray-500 mt-3 italic">For informational, educational and research purposes only.</p>
+            
+            <div className="mt-4 p-3 bg-white/5 rounded-lg border border-white/10">
+              <h4 className="text-sm font-bold text-mystical-teal mb-2">AI Tools Keywords:</h4>
+              <p className="text-xs text-gray-500">
+                AIWEBTOOLS.AI, AI WEB TOOLS, AI TOOLS, Fortune Teller GPT, Artificial Intelligence Tools, 
+                AI Fortune Telling, AI Predictions, Future Reading AI, Mystical AI Oracle
+              </p>
+            </div>
           </div>
           
           <div className="col-span-1">
-            <h4 className="font-bold text-white mb-4">Navigation</h4>
+            <h4 className="font-bold text-white mb-4">AI Tools Navigation</h4>
             <ul className="space-y-2">
               <li>
                 <a 
@@ -36,8 +48,9 @@ const Footer = () => {
                   className="group flex items-center gap-1.5 text-gray-400 hover:text-mystical-teal transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Begin Fortune Telling with AI"
                 >
-                  <span className="group-hover:underline decoration-mystical-teal/30 underline-offset-4">Begin Your Reading</span>
+                  <span className="group-hover:underline decoration-mystical-teal/30 underline-offset-4">Begin Your AI Reading</span>
                   <Star className="w-3.5 h-3.5 text-mystical-teal opacity-0 group-hover:opacity-100 transition-opacity" />
                 </a>
               </li>
@@ -47,8 +60,9 @@ const Footer = () => {
                   className="group flex items-center gap-1.5 text-gray-400 hover:text-mystical-teal transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Dream Interpreter AI Tool"
                 >
-                  <span className="group-hover:underline decoration-mystical-teal/30 underline-offset-4">You May Also Like: Dream Interpreter GPT</span>
+                  <span className="group-hover:underline decoration-mystical-teal/30 underline-offset-4">Dream Interpreter AI Tool</span>
                   <Star className="w-3.5 h-3.5 text-mystical-teal opacity-0 group-hover:opacity-100 transition-opacity" />
                 </a>
               </li>
@@ -56,16 +70,18 @@ const Footer = () => {
                 <a 
                   href="#faq" 
                   className="text-gray-400 hover:text-mystical-teal transition-colors"
+                  aria-label="AI Fortune Telling FAQ"
                 >
-                  FAQ
+                  AI Fortune Telling FAQ
                 </a>
               </li>
               <li>
                 <a 
                   href="#disclaimer" 
                   className="text-gray-400 hover:text-mystical-teal transition-colors"
+                  aria-label="AI Tools Disclaimer"
                 >
-                  Disclaimer
+                  AI Tools Disclaimer
                 </a>
               </li>
               <li>
@@ -74,6 +90,7 @@ const Footer = () => {
                   className="text-gray-400 hover:text-mystical-teal transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="More AI Tools from AIWEBTOOLS.AI"
                 >
                   More AI Tools
                 </a>
@@ -82,7 +99,7 @@ const Footer = () => {
           </div>
           
           <div className="col-span-1">
-            <h4 className="font-bold text-white mb-4">Legal</h4>
+            <h4 className="font-bold text-white mb-4">Legal & Company</h4>
             <ul className="space-y-2">
               <li>
                 <a 
@@ -90,6 +107,7 @@ const Footer = () => {
                   className="text-gray-400 hover:text-mystical-teal transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="AI Tools Privacy Policy"
                 >
                   Privacy Policy
                 </a>
@@ -100,6 +118,7 @@ const Footer = () => {
                   className="text-gray-400 hover:text-mystical-teal transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="AIWEBTOOLS.AI Terms of Service"
                 >
                   Terms of Service
                 </a>
@@ -108,12 +127,13 @@ const Footer = () => {
           </div>
           
           <div className="col-span-1">
-            <h4 className="font-bold text-white mb-4">Contact</h4>
+            <h4 className="font-bold text-white mb-4">Contact AIWEBTOOLS.AI</h4>
             <ul className="space-y-2">
               <li>
                 <a 
                   href="tel:+14758008096" 
                   className="text-gray-400 hover:text-mystical-teal transition-colors"
+                  aria-label="Call AIWEBTOOLS.AI"
                 >
                   (475) 800-8096
                 </a>
@@ -122,6 +142,7 @@ const Footer = () => {
                 <a 
                   href="mailto:Contact@ai-webtools.com" 
                   className="text-gray-400 hover:text-mystical-teal transition-colors"
+                  aria-label="Email AIWEBTOOLS.AI"
                 >
                   Contact@ai-webtools.com
                 </a>
@@ -138,8 +159,9 @@ const Footer = () => {
                   href="https://www.aiwebtools.ai"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Explore more AI tools from AIWEBTOOLS.AI"
                 >
-                  More AI Tools
+                  Explore More AI Tools
                 </a>
               </Button>
             </div>
@@ -148,7 +170,7 @@ const Footer = () => {
         
         <div className="border-t border-white/10 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-400">
-            © 2025 <a href="https://www.aiwebtools.ai" className="hover:text-mystical-teal transition-colors" target="_blank" rel="noopener noreferrer">AI WEB TOOLS LLC</a> All rights reserved.
+            © 2025 <a href="https://www.aiwebtools.ai" className="hover:text-mystical-teal transition-colors font-bold" target="_blank" rel="noopener noreferrer"><strong>AIWEBTOOLS.AI</strong> - AI WEB TOOLS LLC</a> - Leading Provider of AI Tools and Artificial Intelligence Solutions
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a 
@@ -156,8 +178,9 @@ const Footer = () => {
               className="text-gray-400 hover:text-mystical-teal transition-colors"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="AIWEBTOOLS.AI Homepage"
             >
-              <span className="sr-only">AI Web Tools</span>
+              <span className="sr-only">AIWEBTOOLS.AI - AI WEB TOOLS</span>
               <Star className="w-5 h-5" />
             </a>
           </div>

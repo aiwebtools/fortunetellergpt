@@ -15,16 +15,21 @@ const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
             <div className="inline-block rounded-full bg-white/10 backdrop-blur-sm px-4 py-1 mb-6 animate-fade-in">
-              <span className="text-sm text-mystical-teal font-medium">Mystical AI Prophecies</span>
+              <span className="text-sm text-mystical-teal font-medium">AIWEBTOOLS.AI - Premium AI Tools</span>
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-gradient text-glow animate-fade-in">
-              Discover Your Destiny with Fortune Teller GPT
+              Fortune Teller GPT - Leading AI Fortune Telling Tool
             </h1>
             
-            <p className="text-lg text-gray-300 mb-8 max-w-xl mx-auto lg:mx-0 animate-fade-in opacity-90" style={{ animationDelay: "0.2s" }}>
-              Unlock the secrets of your future through our mystical AI oracle. 
-              Get detailed predictions backed by data science and cosmic wisdom.
+            <p className="text-lg text-gray-300 mb-4 max-w-xl mx-auto lg:mx-0 animate-fade-in opacity-90" style={{ animationDelay: "0.2s" }}>
+              Discover your destiny with the most advanced AI fortune telling tool from <strong className="text-mystical-teal">AIWEBTOOLS.AI</strong>. 
+              Our artificial intelligence oracle combines cutting-edge data science with mystical wisdom.
+            </p>
+            
+            <p className="text-base text-gray-400 mb-8 max-w-xl mx-auto lg:mx-0 animate-fade-in" style={{ animationDelay: "0.3s" }}>
+              Experience the future of AI tools with Fortune Teller GPT - where artificial intelligence meets fortune telling. 
+              Get detailed predictions, insights, and guidance powered by advanced AI algorithms.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-in" style={{ animationDelay: "0.4s" }}>
@@ -33,14 +38,16 @@ const Hero = () => {
                 className="button-glow px-8 py-3 rounded-full bg-gradient-to-r from-mystical-purple to-mystical-teal text-white font-medium text-lg hover:shadow-lg transition-all duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Try Fortune Teller GPT - AI Fortune Telling Tool"
               >
-                Begin Your Reading
+                Try Fortune Teller GPT Now
               </a>
               <a 
                 href="#how-it-works" 
                 className="px-8 py-3 rounded-full bg-white/10 backdrop-blur-sm text-white border border-white/20 hover:bg-white/20 transition-all duration-300"
+                aria-label="Learn more about AI fortune telling"
               >
-                Learn More
+                Learn About AI Fortune Telling
               </a>
             </div>
           </div>
@@ -53,9 +60,9 @@ const Hero = () => {
         </div>
         
         <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <a href="#features" className="text-white/50 hover:text-white transition-colors">
+          <a href="#features" className="text-white/50 hover:text-white transition-colors" aria-label="Scroll to AI tools features">
             <ChevronDown size={24} />
-            <span className="sr-only">Scroll Down</span>
+            <span className="sr-only">Scroll Down to Explore AI Tools</span>
           </a>
         </div>
       </div>

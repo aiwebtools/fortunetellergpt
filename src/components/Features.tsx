@@ -30,55 +30,71 @@ const Features = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-block rounded-full bg-white/10 backdrop-blur-sm px-4 py-1 mb-4">
-            <span className="text-sm text-mystical-teal font-medium">Mystical Capabilities</span>
+            <span className="text-sm text-mystical-teal font-medium">AIWEBTOOLS.AI - Advanced AI Tools Capabilities</span>
           </div>
           
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
-            Unlock the Power of <span className="text-gradient">Fortune Teller GPT</span>
+            Why Choose <span className="text-gradient">AIWEBTOOLS.AI Fortune Teller GPT</span>
           </h2>
           
-          <p className="text-gray-300">
-            Our AI oracle combines advanced data analysis with mystical insights to provide
-            detailed and accurate predictions about your future.
+          <p className="text-gray-300 mb-4">
+            Experience the most sophisticated AI fortune telling tool available. Our artificial intelligence 
+            combines advanced data analysis with mystical insights to provide detailed and accurate predictions.
+          </p>
+          
+          <p className="text-sm text-gray-400">
+            <strong className="text-mystical-teal">AIWEBTOOLS.AI</strong> leads the industry in AI tools innovation, 
+            bringing you cutting-edge artificial intelligence solutions for fortune telling and future predictions.
           </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <FeatureCard 
             icon={Eye}
-            title="Mystical Data Analysis"
-            description="Meticulously analyzes real-world data from diverse sources to compile detailed prophecy predictions on any topic."
+            title="AI-Powered Data Analysis"
+            description="Our artificial intelligence meticulously analyzes real-world data from diverse sources to compile detailed prophecy predictions on any topic using advanced AI algorithms."
           />
           
           <FeatureCard 
             icon={Clock}
-            title="Future Insights"
-            description="Searches current world patterns and analyzes historical trends to provide accurate foresight based on patterns unseen by most."
+            title="Future Prediction AI Tool"
+            description="Advanced AI searches current world patterns and analyzes historical trends to provide accurate foresight based on patterns unseen by traditional fortune telling methods."
           />
           
           <FeatureCard 
             icon={Database}
-            title="Resource Divination"
-            description="Provides in-depth readings of global resources, including water, oil, minerals, or any fortune you wish to unveil."
+            title="AI Resource Intelligence"
+            description="Provides in-depth AI-powered readings of global resources, including water, oil, minerals, or any fortune you wish to unveil through artificial intelligence."
           />
           
           <FeatureCard 
             icon={Search}
-            title="Deep Web Scrying"
-            description="Conducts extensive multi-source searches to uncover key patterns, unseen forces, and interwoven destinies in your future."
+            title="Deep AI Web Analysis"
+            description="Conducts extensive multi-source AI searches to uncover key patterns, unseen forces, and interwoven destinies using the most advanced AI tools available."
           />
           
           <FeatureCard 
             icon={Stars}
-            title="Visualization Charts"
-            description="Presents foresight through detailed celestial graphs and prophetic charts with visual manifestations for each divination."
+            title="AI Visualization Technology"
+            description="Presents AI-generated foresight through detailed celestial graphs and prophetic charts with visual manifestations powered by artificial intelligence algorithms."
           />
           
           <FeatureCard 
             icon={Wand2}
-            title="Sacred Calculations"
-            description="Utilizes divine calculations to manifest accurate foretellings and dates of future occurrences in your destiny."
+            title="AI Sacred Calculations"
+            description="Utilizes divine AI calculations to manifest accurate foretellings and dates of future occurrences, combining mystical wisdom with artificial intelligence precision."
           />
+        </div>
+        
+        <div className="text-center mt-12 p-6 glass-panel">
+          <h3 className="text-xl font-bold text-white mb-3">
+            Leading AI Tools Provider - AIWEBTOOLS.AI
+          </h3>
+          <p className="text-gray-300 text-sm">
+            Discover why millions trust <strong className="text-mystical-teal">AIWEBTOOLS.AI</strong> for their AI tools needs. 
+            Our Fortune Teller GPT represents the pinnacle of artificial intelligence fortune telling technology, 
+            combining data science with mystical insights to deliver unparalleled accuracy in predictions.
+          </p>
         </div>
       </div>
     </section>
