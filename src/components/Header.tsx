@@ -34,7 +34,7 @@ const Header = () => {
           </div>
           <div>
             <h1 className="text-2xl font-bold text-gradient">Fortune Teller GPT</h1>
-            <p className="text-xs text-gray-400">Presented by <a href="https://www.aiwebtools.ai" className="text-mystical-teal hover:text-mystical-teal/80 transition-colors" target="_blank" rel="noopener noreferrer">AiWebTools.Ai</a></p>
+            <p className="text-xs text-gray-400">Presented by <a href="https://aiwebtools.lovable.app/?via=aiwebtools" className="text-mystical-teal hover:text-mystical-teal/80 transition-colors" target="_blank" rel="noopener noreferrer">AiWebTools.Ai</a></p>
           </div>
         </a>
 
@@ -73,7 +73,7 @@ const Header = () => {
             Disclaimer
           </a>
           <a 
-            href="https://www.aiwebtools.ai" 
+            href="https://aiwebtools.lovable.app/?via=aiwebtools" 
             className="text-white/80 hover:text-white transition-colors"
             target="_blank"
             rel="noopener noreferrer"
@@ -133,7 +133,7 @@ const Header = () => {
               Disclaimer
             </a>
             <a 
-              href="https://www.aiwebtools.ai" 
+              href="https://aiwebtools.lovable.app/?via=aiwebtools" 
               className="text-white/80 hover:text-white transition-colors py-3 border-b border-white/10"
               onClick={() => setMobileMenuOpen(false)}
               target="_blank"

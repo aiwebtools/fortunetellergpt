@@ -21,7 +21,7 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-gradient">Fortune Teller GPT</h3>
-                <p className="text-xs text-gray-400">By <a href="https://www.aiwebtools.ai" className="hover:text-mystical-teal transition-colors" target="_blank" rel="noopener noreferrer"><strong>AIWEBTOOLS.AI</strong></a></p>
+                <p className="text-xs text-gray-400">By <a href="https://aiwebtools.lovable.app/?via=aiwebtools" className="hover:text-mystical-teal transition-colors" target="_blank" rel="noopener noreferrer"><strong>AIWEBTOOLS.AI</strong></a></p>
               </div>
             </a>
             <p className="text-gray-400 text-sm mt-4">
@@ -86,7 +86,7 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="https://www.aiwebtools.ai" 
+                  href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                   className="text-gray-400 hover:text-mystical-teal transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -156,7 +156,7 @@ const Footer = () => {
                 className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-mystical-purple to-mystical-teal text-white text-sm font-medium hover:shadow-lg transition-all duration-300 hover:scale-105"
               >
                 <a
-                  href="https://www.aiwebtools.ai"
+                  href="https://aiwebtools.lovable.app/?via=aiwebtools"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Explore more AI tools from AIWEBTOOLS.AI"
@@ -170,11 +170,11 @@ const Footer = () => {
         
         <div className="border-t border-white/10 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-400">
-            © 2025 <a href="https://www.aiwebtools.ai" className="hover:text-mystical-teal transition-colors font-bold" target="_blank" rel="noopener noreferrer"><strong>AIWEBTOOLS.AI</strong> - AI WEB TOOLS LLC</a> - Leading Provider of AI Tools and Artificial Intelligence Solutions
+            © 2025 <a href="https://aiwebtools.lovable.app/?via=aiwebtools" className="hover:text-mystical-teal transition-colors font-bold" target="_blank" rel="noopener noreferrer"><strong>AIWEBTOOLS.AI</strong> - AI WEB TOOLS LLC</a> - Leading Provider of AI Tools and Artificial Intelligence Solutions
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a 
-              href="https://www.aiwebtools.ai"
+              href="https://aiwebtools.lovable.app/?via=aiwebtools"
               className="text-gray-400 hover:text-mystical-teal transition-colors"
               target="_blank"
               rel="noopener noreferrer"
