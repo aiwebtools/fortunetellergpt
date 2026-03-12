@@ -170,7 +170,7 @@ const Footer = () => {
         
         <div className="border-t border-white/10 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-400">
-            © 2025 <a href="https://www.aiwebtools.ai" className="hover:text-mystical-teal transition-colors font-bold" target="_blank" rel="noopener noreferrer"><strong>AIWEBTOOLS.AI</strong> - AI WEB TOOLS LLC</a> - Leading Provider of AI Tools and Artificial Intelligence Solutions
+            © 2025 <a href="https://aiwebtools.lovable.app/?via=aiwebtools" className="hover:text-mystical-teal transition-colors font-bold" target="_blank" rel="noopener noreferrer"><strong>AIWEBTOOLS.AI</strong> - AI WEB TOOLS LLC</a> - Leading Provider of AI Tools and Artificial Intelligence Solutions
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a 
