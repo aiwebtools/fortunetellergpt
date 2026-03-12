@@ -34,7 +34,7 @@ const Header = () => {
           </div>
           <div>
             <h1 className="text-2xl font-bold text-gradient">Fortune Teller GPT</h1>
-            <p className="text-xs text-gray-400">Presented by <a href="https://www.aiwebtools.ai" className="text-mystical-teal hover:text-mystical-teal/80 transition-colors" target="_blank" rel="noopener noreferrer">AiWebTools.Ai</a></p>
+            <p className="text-xs text-gray-400">Presented by <a href="https://aiwebtools.lovable.app/?via=aiwebtools" className="text-mystical-teal hover:text-mystical-teal/80 transition-colors" target="_blank" rel="noopener noreferrer">AiWebTools.Ai</a></p>
           </div>
         </a>
 
