@@ -133,7 +133,7 @@ const Header = () => {
               Disclaimer
             </a>
             <a 
-              href="https://www.aiwebtools.ai" 
+              href="https://aiwebtools.lovable.app/?via=aiwebtools" 
               className="text-white/80 hover:text-white transition-colors py-3 border-b border-white/10"
               onClick={() => setMobileMenuOpen(false)}
               target="_blank"

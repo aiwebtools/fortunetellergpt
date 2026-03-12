@@ -174,7 +174,7 @@ const Footer = () => {
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a 
-              href="https://www.aiwebtools.ai"
+              href="https://aiwebtools.lovable.app/?via=aiwebtools"
               className="text-gray-400 hover:text-mystical-teal transition-colors"
               target="_blank"
               rel="noopener noreferrer"
