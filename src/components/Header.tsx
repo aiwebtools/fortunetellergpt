@@ -73,7 +73,7 @@ const Header = () => {
             Disclaimer
           </a>
           <a 
-            href="https://www.aiwebtools.ai" 
+            href="https://aiwebtools.lovable.app/?via=aiwebtools" 
             className="text-white/80 hover:text-white transition-colors"
             target="_blank"
             rel="noopener noreferrer"
