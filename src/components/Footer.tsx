@@ -21,7 +21,7 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-gradient">Fortune Teller GPT</h3>
-                <p className="text-xs text-gray-400">By <a href="https://www.aiwebtools.ai" className="hover:text-mystical-teal transition-colors" target="_blank" rel="noopener noreferrer"><strong>AIWEBTOOLS.AI</strong></a></p>
+                <p className="text-xs text-gray-400">By <a href="https://aiwebtools.lovable.app/?via=aiwebtools" className="hover:text-mystical-teal transition-colors" target="_blank" rel="noopener noreferrer"><strong>AIWEBTOOLS.AI</strong></a></p>
               </div>
             </a>
             <p className="text-gray-400 text-sm mt-4">
