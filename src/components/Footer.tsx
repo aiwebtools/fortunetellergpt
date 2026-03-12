@@ -156,7 +156,7 @@ const Footer = () => {
                 className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-mystical-purple to-mystical-teal text-white text-sm font-medium hover:shadow-lg transition-all duration-300 hover:scale-105"
               >
                 <a
-                  href="https://www.aiwebtools.ai"
+                  href="https://aiwebtools.lovable.app/?via=aiwebtools"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Explore more AI tools from AIWEBTOOLS.AI"
